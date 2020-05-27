@@ -7,3 +7,4 @@ The course that I'm following can be purchased here: https://www.udemy.com/cours
 
 # Log
 - 5/26/2020: Completed Section 1: Introduction and Section 2: Exceptions
+- 5/27/2020: Completed Section 3: Files 
