@@ -1,6 +1,6 @@
 #include "Maps.h"
 
-int main() {
+int main3() {
 	/* LESSON 4.16 
 	map <string, int> ages;
 

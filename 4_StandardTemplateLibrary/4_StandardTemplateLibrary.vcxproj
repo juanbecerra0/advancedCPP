@@ -139,10 +139,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Maps.cpp" />
+    <ClCompile Include="Multimaps.cpp" />
     <ClCompile Include="Vectors.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Maps.h" />
+    <ClInclude Include="Multimaps.h" />
     <ClInclude Include="Vectors.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
