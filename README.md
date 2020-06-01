@@ -6,6 +6,7 @@ Up to now, I've only really delved into C++ for quick and easy personal projects
 The course that I'm following can be purchased here: https://www.udemy.com/course/learn-advanced-c-programming/
 
 # Log
+- 6/01/2020: Completed Section 5: Operator Overloading
 - 5/29/2020: Completed Section 4: The Standard Template Library
 - 5/27/2020: Completed Section 3: Files 
 - 5/26/2020: Completed Section 2: Exceptions
