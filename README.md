@@ -6,6 +6,7 @@ Up to now, I've only really delved into C++ for quick and easy personal projects
 The course that I'm following can be purchased here: https://www.udemy.com/course/learn-advanced-c-programming/
 
 # Log
+- 6/02/2020: Completed Section 7: Passing Functions to Functions
 - 6/01/2020: Completed Section 6: Template Classes and Functions
 - 6/01/2020: Completed Section 5: Operator Overloading
 - 5/29/2020: Completed Section 4: The Standard Template Library
