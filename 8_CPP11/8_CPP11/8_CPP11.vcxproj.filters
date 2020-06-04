@@ -18,12 +18,21 @@
     <ClCompile Include="Driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Driver2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Auto.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="CycleBuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitializerList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambdas.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
