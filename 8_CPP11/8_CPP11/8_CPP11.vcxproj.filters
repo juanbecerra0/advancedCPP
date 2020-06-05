@@ -35,5 +35,11 @@
     <ClInclude Include="Lambdas.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Dele.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

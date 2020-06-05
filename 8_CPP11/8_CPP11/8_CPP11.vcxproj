@@ -146,8 +146,10 @@
   <ItemGroup>
     <ClInclude Include="Auto.h" />
     <ClInclude Include="CycleBuffer.h" />
+    <ClInclude Include="Dele.h" />
     <ClInclude Include="InitializerList.h" />
     <ClInclude Include="Lambdas.h" />
+    <ClInclude Include="Move.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
