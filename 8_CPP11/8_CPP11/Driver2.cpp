@@ -13,8 +13,12 @@
 //#include "Lambdas.h"
 //#include "Dele.h"
 //#include "Move.h"
+//#include "Casts.h"
+//#include "Forwarding.h"
+//#include "Pointers.h"
 
 using namespace std;
+using namespace placeholders;
 
 /*
 bool check(string& test) {
@@ -62,12 +66,73 @@ int main() {
 	/* 61, 62
 
 	vector<Test> tests;
-	tests.push_back(Test());
+	tests.push_back(getTest());
 
-	Test test = getTest();
+	Test test;
+	test = getTest();
+	*/
+	
+	/* 63, 64, 65
+	Parent parent;
+	Brother brother;
+
+	Parent* pp = &brother;
+
+	// Static, not very safe
+	//Parent* ppb = &brother;
+	//Brother* pbb = static_cast<Brother*>(ppb);
+
+	// Valid!
+	Parent* ppb = &brother;
+	Brother* pbb = dynamic_cast<Brother*>(ppb);
+
+	if (pbb == nullptr) {
+		cout << "Invalid!" << endl;
+	}
+	else {
+		cout << "Valid!" << endl;
+	}
+
+	// Invalid!
+	ppb = &parent;
+	pbb = dynamic_cast<Brother*>(ppb);
+
+	if (pbb == nullptr) {
+		cout << "Invalid!" << endl;
+	}
+	else {
+		cout << "Valid!" << endl;
+	}
+
+	// Rvalue -> lvalue reference
+	Parent&& p = static_cast<Parent&&>(parent);
 	*/
 
-	cout << "";
+	/* 66 
+	Test test;
+
+	call(test);
+	call(Test());
+	*/
+
+	/* 67
+	auto calc = bind(add, _1, 100, _2);
+
+	cout << run(calc) << endl;
+	*/
+
+	/* 68, 69
+	{
+		//unique_ptr<Test[]> puTest(new Test[2]);
+
+		//puTest[1]->greet();
+
+		shared_ptr<Test> psTest = make_shared<Test>();
+
+		shared_ptr<Test> psTest2 = psTest;
+
+	}
+	*/
 
 	cout << endl << "ENDING PROGRAM" << endl;
 	return 0;

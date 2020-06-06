@@ -1,4 +1,3 @@
-#pragma once
 #include <iostream>
 #include <vector>
 #include <memory.h>
@@ -29,7 +28,7 @@ public:
 		memcpy(_pBuffer, other._pBuffer, SIZE * sizeof(int));
 	}
 
-	Test(Test&& other) {
+	Test(Test&& other) noexcept {
 		cout << "Move constructor" << endl;
 		_pBuffer = other._pBuffer;
 		other._pBuffer = nullptr;
@@ -42,7 +41,7 @@ public:
 		return *this;
 	}
 
-	Test& operator=(Test&& other) {
+	Test& operator=(Test&& other) noexcept {
 		cout << "Move assignment" << endl;
 
 		delete[] _pBuffer;

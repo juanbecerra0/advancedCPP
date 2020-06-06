@@ -41,5 +41,14 @@
     <ClInclude Include="Move.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Casts.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Forwarding.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pointers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
