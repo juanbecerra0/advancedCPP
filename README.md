@@ -5,7 +5,14 @@ Up to now, I've only really delved into C++ for quick and easy personal projects
 
 The course that I'm following can be purchased here: https://www.udemy.com/course/learn-advanced-c-programming/
 
+The final project, "Drawing Fractal Images", can be found in this repository: https://github.com/juanbecerra0/FractalImageGenerator
+
+# Certificate
+// TODO
+
 # Log
+- 6/06/2020: Completed Section 9: About GUI Programming in C++
+- 6/06/2020: Completed Section 8: C++11's Amazing New Features
 - 6/02/2020: Completed Section 7: Passing Functions to Functions
 - 6/01/2020: Completed Section 6: Template Classes and Functions
 - 6/01/2020: Completed Section 5: Operator Overloading
