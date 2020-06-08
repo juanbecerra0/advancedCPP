@@ -11,6 +11,8 @@ The final project, "Drawing Fractal Images", can be found in this repository: ht
 // TODO
 
 # Log
+- 6/08/2020: Completed Section 11: Bonus Videos
+- 6/08/2020: Completed Section 10: A Project: Drawing Fractal Images
 - 6/06/2020: Completed Section 9: About GUI Programming in C++
 - 6/06/2020: Completed Section 8: C++11's Amazing New Features
 - 6/02/2020: Completed Section 7: Passing Functions to Functions
