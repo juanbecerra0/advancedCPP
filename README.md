@@ -8,7 +8,7 @@ The course that I'm following can be purchased here: https://www.udemy.com/cours
 The final project, "Drawing Fractal Images", can be found in this repository: https://github.com/juanbecerra0/FractalImageGenerator
 
 # Certificate
-[cert](cert.jpg)
+![cert](cert.jpg)
 
 # Log
 - 6/08/2020: Completed Section 11: Bonus Videos
